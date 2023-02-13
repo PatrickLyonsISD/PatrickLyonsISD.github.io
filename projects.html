@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q8GG517PHV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Q8GG517PHV');
+</script>
+  <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patrick</title>
+    <link rel="stylesheet" href="./style.css">
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="shortcut icon" href="favicon.ico">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <transition name="fade">
+    <div class="main" v-if="currentPage === 'home'">
+      <div class="header">
+        <h1>My Portfolio</h1>
+      </div>
+      <div class="section">
+        
+        <section id="projects">
+          <div class="container">
+              <div class="row">
+                  <h2 class="section__title">Here are some of my <span class="text--purple">projects.</span></h2>
+                  <p>Welcome to my projects page, showcasing my skills and experience in web development. On this page, you'll find a 
+                    selection of my most notable projects, each of which demonstrates my technical proficiency and ability to deliver quality work.
+                     Click on each project for a brief description and to view the site in action. I hope you enjoy exploring my portfolio and I 
+                     look forward to the opportunity to discuss my skills and experience further with you.</p>
+             <ul class="project__list">
+                 <li class="project">
+                     <div class="project__wrapper">
+                         <img src="./assets/project1.jpg" class="project img" alt="project1" width="100%" height="100%">
+                     <div class="project__description">
+                         <h3 class="project__description--title"> Ridgewell makeup</h3>
+                     <h4 class="project__description--sub-title">Javascript, HTML, CSS, PHP, MySQL</h4>
+                      <p class="project__description--para"> This is a website i made for a beutician and SFX makeup up artist in London</p>
+                <div class="project__description--links">
+                    <a href="https://ridgewellmakeup.wixsite.com/home" target="_blank" class="project__description--link">
+                        <i class="fas fa-link"></i>
+                    </a>
+                </div>
+                  </div>
+  
+                      </div>
+                 </li>
+                 <li class="project">
+                  <div class="project__wrapper">
+                      <img src="./assets/project2.jpg" class="project img" alt="project2" width="100%" height="100%">
+                  <div class="project__description">
+                      <h3 class="project__description--title"> ATV/Quads Galway</h3>
+                  <h4 class="project__description--sub-title">Javascript, HTML, CSS, PHP, MySQL</h4>
+                   <p class="project__description--para"> This a website I made for an auto dealer in my local town who wanted to start selling ATV's and Quads</p>
+             <div class="project__description--links">
+                 <a href="https://atvquads.wixsite.com/quadsatvgalway" target="_blank" class="project__description--link">
+                     <i class="fas fa-link"></i>
+                 </a>
+             </div>
+               </div>
+  
+                   </div>
+              </li>
+              <li class="project">
+                  <div class="project__wrapper">
+                      <img src="./assets/project3.png" class="project img" alt="project3" width="100%" height="100%">
+                  <div class="project__description">
+                      <h3 class="project__description--title"> Loughrea Auto Parts</h3>
+                  <h4 class="project__description--sub-title">Javascript, HTML, CSS</h4>
+                   <p class="project__description--para">This a website I made for an auto parts shop in Loughrea Co. Galway</p>
+             <div class="project__description--links">
+                 <a href="https://loughreaautoparts.github.io/index.html?fbclid=IwAR2d7pBTt7XIfijuxpLBv9QlQZbQ12Da_L9hqwDjMAXCD3N9yIszVeeMBk8" target="_blank" class="project__description--link">
+                     <i class="fas fa-link"></i>
+                 </a>
+             </div>
+               </div>
+  
+                   </div>
+              </li>
+             </ul>
+              </div>
+  
+          </div>
+      </section>
+      
+</div>
+</div>
+
+
+<div id="loading">
+  <img src="assets/logo.svg" alt="Loading..." />
+</div>
+</transition>
+        <footer>
+          <div class="row footer__row">
+              <a href="index.html" class="footer__anchor">
+                  <figure class="footer__logo">
+                      <img src="./assets/logo.svg" class="footer__logo--img"alt="">
+                    </figure>
+                 
+          </a>
+          <div class="footer__social--list">
+              <a href="https://github.com/PatrickLyonsISD" class="
+              footer__social--link
+              link__hover-effect
+              link__hover-effect--white"
+              target="_blank">GitHub</a>
+              <a href="https://www.linkedin.com/in/patrick-lyons-634669159/" class="
+              footer__social--link
+              link__hover-effect
+              link__hover-effect--white"
+              target="_blank">LinkedIn</a>
+              <a href="mailto:patricklyonslit@gmail.com" class="
+              footer__social--link
+              link__hover-effect
+              link__hover-effect--white"
+              target="_blank">Email</a>
+              <a href="./assets/PatrickLyonsCv.pdf" class="
+              footer__social--link
+              link__hover-effect
+              link__hover-effect--white"
+              target="_blank" >CV</a>
+          </div>
+          <div class="footer__copyright"> Copyright © 2023 Patrick Lyons</div>
+          </div>
+      </footer>
+      <script src="script.js"></script>
+    </body>
+  </html>

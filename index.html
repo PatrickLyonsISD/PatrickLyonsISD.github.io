@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q8GG517PHV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Q8GG517PHV');
+</script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Patrick</title>
+  <link rel="stylesheet" href="./style.css">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="shortcut icon" href="favicon.ico">
+  
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <transition name="fade">
+    <div class="main" v-if="currentPage === 'home'">
+      <div class="header">
+        <h1>My Portfolio</h1>
+      </div>
+      <div class="section">
+        <div class="me">
+        <img src="./assets/me3.jpg" class="about-me__picture" alt="picture of me">
+      </div>
+        <p>Hello! I'm Patrick Lyons and I'm excited to share a little bit about myself. I'm an ambitious and hardworking individual who is 
+          currently pursuing a BSc. in Internet Systems Development at Limerick Institute of Technology. My passion for technology is what 
+          drives me to continually expand my skillset and gain hands-on experience. I have a long-term goal of pursuing a Master's degree in 
+          Computer Science and I believe that my studies and past experiences have positioned me well for a successful career in the field.
+           During my summer, I had the opportunity to work as a POS-Intern with the leading fintech company, Fiserv, where I gained valuable 
+           industry experience. Please take a look at my portfolio to see some of the projects I have worked on and to see why I am so 
+           passionate about technology</p>
+      </div>
+      
+</div>
+
+<div id="loading">
+  <img src="assets/logo.svg" alt="Loading..." />
+</div>
+
+
+</transition>
+        <footer>
+          <div class="row footer__row">
+              <a href="index.html" class="footer__anchor">
+                  <figure class="footer__logo">
+                      <img src="./assets/logo.svg" class="footer__logo--img"alt="">
+                    </figure>
+                 
+          </a>
+          <div class="footer__social--list">
+              <a href="https://github.com/PatrickLyonsISD" class="
+              footer__social--link
+              link__hover-effect
+              link__hover-effect--white"
+              target="_blank">GitHub</a>
+              <a href="https://www.linkedin.com/in/patrick-lyons-634669159/" class="
+              footer__social--link
+              link__hover-effect
+              link__hover-effect--white"
+              target="_blank">LinkedIn</a>
+              <a href="mailto:patricklyonslit@gmail.com" class="
+              footer__social--link
+              link__hover-effect
+              link__hover-effect--white"
+              target="_blank">Email</a>
+              <a href="./assets/PatrickLyonsCv.pdf" class="
+              footer__social--link
+              link__hover-effect
+              link__hover-effect--white"
+              target="_blank" >CV</a>
+              <a href="https://PatrickLyonsISD.github.io/eportfolio/assets/PatrickLyonsCv.pdf" class="
+              footer__social--link
+              link__hover-effect
+              link__hover-effect--white"
+              target="_blank" >CV</a>
+          </div>
+          <div class="footer__copyright"> Copyright © 2023 Patrick Lyons</div>
+          </div>
+      </footer>
+      <script src="script.js"></script>
+    </body>
+  </html>

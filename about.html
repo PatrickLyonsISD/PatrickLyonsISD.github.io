@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q8GG517PHV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Q8GG517PHV');
+</script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Patrick</title>
+  <link rel="stylesheet" href="./style.css">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="shortcut icon" href="favicon.ico">
+
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <transition name="fade">
+    <div class="main" v-if="currentPage === 'home'">
+      <div class="header">
+        <h1>My Portfolio</h1>
+      </div>
+      <div class="section">
+        <h2>About Me</h2>
+       <p>Hi! I'm Patrick Lyons, a third-year student at Limerick Institute of Technology, pursuing a BSc. in Internet Systems Development. 
+        I have a strong passion for the online payment and banking sectors and aim to gain as much experience in these fields as I can 
+        during my studies. My long-term goal is to continue my education with a master's degree in Computer Science.</p>
+
+       <p> I have a wide range of technical skills, including proficiency in Java, JSP, SQL, JavaScript, HTML, PHP, CSS, and React, as well as 
+        familiarity with XML. I have experience working with databases, programming software, and software testing, and I am certified in
+         Microsoft Office. Additionally, I have experience working in an agile team environment, using scrum methodology and git.</p>
+        
+        <p>During my summer internship at Fiserv (Nenagh office), I was part of the cloud-poi team and took the lead on testing the first roll-out of 
+        translations for payment terminals. I was also able to reduce technical debt and became proficient with GitLab. My previous work 
+        experience at Moylan's bar has honed my customer service and cash handling skills, as well as my ability to work efficiently in fast-paced
+         environments.</p>
+        
+       <p>I am eager to bring my skills and experience to a new opportunity and am available for a 7-month internship starting from 
+        March. If you're interested in learning more about me, please feel free to reach out via my contact page or LinkedIn.</p> 
+      </div>
+      </div>
+      
+     
+      <div id="loading">
+        <img src="assets/logo.svg" alt="Loading..." />
+      </div>
+
+</transition>
+        <footer>
+          <div class="row footer__row">
+              <a href="index.html" class="footer__anchor">
+                  <figure class="footer__logo">
+                      <img src="./assets/logo.svg" class="footer__logo--img"alt="">
+                    </figure>
+                 
+          </a>
+          <div class="footer__social--list">
+              <a href="https://github.com/PatrickLyonsISD" class="
+              footer__social--link
+              link__hover-effect
+              link__hover-effect--white"
+              target="_blank">GitHub</a>
+              <a href="https://www.linkedin.com/in/patrick-lyons-634669159/" class="
+              footer__social--link
+              link__hover-effect
+              link__hover-effect--white"
+              target="_blank">LinkedIn</a>
+              <a href="mailto:patricklyonslit@gmail.com" class="
+              footer__social--link
+              link__hover-effect
+              link__hover-effect--white"
+              target="_blank">Email</a>
+              <a href="./assets/PatrickLyonsCv.pdf" class="
+              footer__social--link
+              link__hover-effect
+              link__hover-effect--white"
+              target="_blank" >CV</a>
+          </div>
+          <div class="footer__copyright"> Copyright © 2023 Patrick Lyons</div>
+          </div>
+      </footer>
+      <script src="script.js"></script>
+    </body>
+  </html>
