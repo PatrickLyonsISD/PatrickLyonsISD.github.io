@@ -413,3 +413,24 @@ footer {
       display: none;
     }
   }
+
+  @media (min-width: 1024px) {
+    #loading img {
+      max-width: 50%; /* Adjust the max-width as needed */
+      height: auto; /* Maintain aspect ratio */
+    }
+  }
+  
+  /* You can add more breakpoints as needed */
+  @media (min-width: 1280px) {
+    #loading img {
+      max-width: 40%; /* Further reduce size for larger screens */
+    }
+  }
+  
+  /* Further adjustments for very large screens */
+  @media (min-width: 1600px) {
+    #loading img {
+      max-width: 30%;
+    }
+  }
